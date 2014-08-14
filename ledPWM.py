@@ -10,13 +10,13 @@ p.start(0.0)
 print "Start loop"
 try:
 
-	while True:
-		bri = 0.0
-		while bri < 100.0:
-			p.ChangeDutyCycle(bri)
-			time.sleep(0.0001)
-			bri += 0.01
+   while True:
+      bri = 0.0
+      while bri < 100.0:
+	 p.ChangeDutyCycle(bri)
+	 time.sleep(0.0001)
+	 bri += 0.01
 
 except KeyboardInterrupt:
-	GPIO.cleanup()
-	print "cleanup"
+   GPIO.cleanup()
+   print "cleanup"
