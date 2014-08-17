@@ -1,4 +1,4 @@
 PiScripts
 =========
 
-Test python scripts for different sensors
+RaspberryPI test python scripts for different sensors
